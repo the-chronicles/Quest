@@ -5,7 +5,7 @@ function Hero() {
     <section className="flex rounded-b-2xl border-b-2 h-full mx-4 items-center justify-center bg-gradient-to-b from-white to-transparent">  {/* h-screen  */}
       <div className=" text-center font-[Inter]">
         <div className="bg-gradient-to-b from-[#060E23] to-[#060e2381] bg-clip-text text-3xl font-bold text-transparent">
-          <h1 className="mb-4 mt-4 md:text-5xl">
+          <h1 className="mb-4 mt-5 md:text-5xl">
             Protecting Your <br />
             Financial Future, Today.
           </h1>
@@ -16,7 +16,7 @@ function Hero() {
           </p>
         </div>
 
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center gap-4 mb-9">
           <div>
             <a href="#">
               <button className="rounded-full border-2 border-[#1835F2] bg-gradient-to-tr from-[#1835F2] to-blue-500 px-4 py-2 text-white">
