@@ -9,7 +9,7 @@ function Navbar() {
             <div>
               <img src="/logo.png" alt="Quest Logo" className="w-20" />
             </div>
-            <ul className="flex gap-8 text-[#5F6266]">
+            <ul className="flex gap-10 text-[#5F6266]">
               <li>
                 <a href="#features">Features</a>
               </li>
@@ -24,7 +24,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <ul className="flex items-center gap-7 font-semibold">
+          <ul className="flex items-center gap-8 font-semibold">
             <li>
               <a href="#">Log in </a>
             </li>
