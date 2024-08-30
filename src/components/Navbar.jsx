@@ -4,38 +4,36 @@ function Navbar() {
   return (
     <header>
       <div>
-        <nav className="flex items-center justify-between bg-white px-11 py-2.5">
-          <div className="flex items-center gap-4 text-black">
+        <nav className="flex items-center justify-between px-16 py-7 font-[Inter] text-[15px]">
+          <div className="flex items-center gap-11">
             <div>
-              <img src="/logo.png" alt="Quest-logo" className="" />
-
-              <ul className="flex items-center gap-4 text-black">
-              <li className="text-decoration-none hover:text-decoration-underline hover:text-decoration-2 group">
-                <a href="#">Features</a>
+              <img src="/logo.png" alt="Quest Logo" className="w-20" />
+            </div>
+            <ul className="flex gap-8 text-[#5F6266]">
+              <li>
+                <a href="#features">Features</a>
               </li>
-              <li className="text-decoration-none hover:text-decoration-underline hover:text-decoration-2 group">
+              <li>
                 <a href="#">Services</a>
               </li>
-              <li className="text-decoration-none hover:text-decoration-underline hover:text-decoration-2 group">
+              <li>
                 <a href="#">Industries</a>
               </li>
-              <li className="text-decoration-none hover:text-decoration-underline hover:text-decoration-2 group">
+              <li>
                 <a href="#">About</a>
-              </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <ul className="flex items-center gap-4 text-black">
-              
-              <li className="text-decoration-none hover:text-decoration-underline hover:text-decoration-2 group">
-                <a href="#"></a>
-              </li>
-              <li className="rounded-full bg-red-500 px-2 py-1 text-white">
-                <a href="#">Join Quest now</a>
               </li>
             </ul>
           </div>
+          <ul className="flex items-center gap-7 font-semibold">
+            <li>
+              <a href="#">Log in </a>
+            </li>
+            <li>
+              <button className="rounded-full border-2 border-[#1835F2] bg-gradient-to-tr from-[#1835F2] to-blue-500 px-4 py-2 text-white">
+                <a href="#">Join Quest now</a>
+              </button>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
