@@ -4,10 +4,10 @@ function Features() {
   return (
     <section
       id="features"
-      className="mx-4 flex h-full items-center justify-center p-5 m-5"
+      className="m-5 mx-4 flex h-full items-center justify-center p-5"
     >
       <div className="flex flex-col items-center justify-center font-[Inter]">
-        <div className="w-fit items-center justify-center rounded-full border-2  bg-[#FAFAFD] border-[#CFD3EF] px-4 py-2 text-[#747999]">
+        <div className="w-fit items-center justify-center rounded-full border-2 border-[#CFD3EF] bg-[#FAFAFD] px-4 py-2 text-[#747999]">
           Quest's Features
         </div>
         <div className="text-center">
@@ -38,11 +38,33 @@ function Features() {
             </p>
             <img src="/Figure.png" alt="" className="flex items-baseline" />
           </div>
-          <div className="rounded-md bg-[#f8f9fb] md:col-span-1">
-            <h1>Customized Security Strategies</h1>
+          <div className="rounded-md bg-[#f8f9fb] md:col-span-1 w-80 px-5">
+            <img className="h-fit w-fit" src="/padlock.png" />
+            <h1 className="text-xl font-semibold text-[#060E23]">
+              Customized Security Strategies
+            </h1>
+            <p className="text-[#72758A]">
+              Tailored solutions designed to fit the unique needs of your
+              financial institution.
+            </p>
           </div>
-          <div className="rounded-md bg-[#f8f9fb] md:col-span-3">
-            <h1>Quest Vault™</h1>
+          <div className="rounded-md bg-[#f8f9fb] md:col-span-3 p-5 lg:w-10/12 lg:ml-28 md:ml-0 flex justify-center ">
+            <div className="flex items-center">
+
+            <div className="text-left">
+              <h1 className="text-xl font-semibold text-[#060E23]">
+                Quest Vault™
+              </h1>
+              <p className="text-[#72758A]">
+                Industry-leading encryption and data protection solutions to
+                safeguard sensitive information.
+              </p>
+            </div>
+
+            <div>
+              <img src="/Container.png" alt="" />
+            </div>
+            </div>
           </div>
         </div>
       </div>
