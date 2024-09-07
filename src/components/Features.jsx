@@ -38,7 +38,7 @@ function Features() {
             </p>
             <img src="/Figure.png" alt="" className="flex items-baseline" />
           </div>
-          <div className="rounded-md bg-[#f8f9fb]  w-80 px-5">
+          <div className="rounded-md bg-[#f8f9fb] md:col-span-1 w-fit px-5">
             <img className="h-fit w-fit" src="/padlock.png" />
             <h1 className="text-xl font-semibold text-[#060E23]">
               Customized Security Strategies
