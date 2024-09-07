@@ -18,7 +18,7 @@ function Features() {
             Comprehensive Security Solutions for the Financial Industry.
           </p>
         </div>
-        <div className="grid-col-1 grid gap-2 px-36 text-center font-[Inter] md:grid-cols-4">
+        <div className="grid-cols-1 grid gap-2 px-36 text-center font-[Inter] md:grid-cols-4">
           <div className="rounded-md bg-[#f8f9fb] px-5 pt-5 md:col-span-2">
             <h1 className="text-xl font-semibold text-[#060E23]">
               Secure Data Management
