@@ -27,7 +27,7 @@ function Footer() {
 
         </div> */}
 
-        <div className="mx-auto my-[60px] flex h-[90dvh] w-11/12 flex-col items-center justify-center gap-[69px] rounded-3xl bg-[#07091c]">
+        <div className="mx-auto my-[60px] flex h-screen w-11/12 flex-col items-center justify-center gap-[69px] rounded-3xl bg-[#07091c]">
           {/* <div class="mx-auto my-[60px] h-[575px] px-[279px] py-[127px] bg-[#07091c] rounded-3xl flex-col justify-start items-center gap-[69px] inline-flex"> */}
           <div class="w-[682px] text-center font-['Inter'] text-6xl font-bold leading-[72px] text-[#dadcea]">
             Join Our Mission. Protect your Business
