@@ -18,7 +18,8 @@ function Features() {
             Comprehensive Security Solutions for the Financial Industry.
           </p>
         </div>
-        <div className="grid-cols-1 grid gap-2 px-36 text-center font-[Inter] md:grid-cols-4">
+
+        <div className="grid grid-cols-1 gap-2 px-36 text-center font-[Inter] md:grid-cols-4">
           <div className="rounded-md bg-[#f8f9fb] px-5 pt-5 md:col-span-2">
             <h1 className="text-xl font-semibold text-[#060E23]">
               Secure Data Management
@@ -38,7 +39,8 @@ function Features() {
             </p>
             <img src="/Figure.png" alt="" className="flex items-baseline" />
           </div>
-          <div className="rounded-md bg-[#f8f9fb] md:col-span-1 w-fit px-5">
+
+          <div className="w-fit rounded-md bg-[#f8f9fb] px-5 md:col-span-1">
             <img className="h-fit w-fit" src="/padlock.png" />
             <h1 className="text-xl font-semibold text-[#060E23]">
               Customized Security Strategies
@@ -48,22 +50,22 @@ function Features() {
               financial institution.
             </p>
           </div>
-          <div className="rounded-md bg-[#f8f9fb] md:col-span-3 p-5 lg:w-10/12 lg:ml-28 md:ml-0 flex justify-center ">
+
+          <div className="flex justify-center rounded-md bg-[#f8f9fb] p-5 md:col-span-3 md:col-start-2">
             <div className="flex items-center">
+              <div className="text-left">
+                <h1 className="text-xl font-semibold text-[#060E23]">
+                  Quest Vault™
+                </h1>
+                <p className="text-[#72758A]">
+                  Industry-leading encryption and data protection solutions to
+                  safeguard sensitive information.
+                </p>
+              </div>
 
-            <div className="text-left">
-              <h1 className="text-xl font-semibold text-[#060E23]">
-                Quest Vault™
-              </h1>
-              <p className="text-[#72758A]">
-                Industry-leading encryption and data protection solutions to
-                safeguard sensitive information.
-              </p>
-            </div>
-
-            <div>
-              <img src="/Container.png" alt="" />
-            </div>
+              <div>
+                <img src="/Container.png" alt="" />
+              </div>
             </div>
           </div>
         </div>

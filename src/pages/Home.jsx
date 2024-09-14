@@ -11,8 +11,8 @@ function Home() {
     <Hero/>
     <Features />
     <Industry />
-    <Services />
     <About />
+    <Services />
   </MainLayout>
 }
 
