@@ -2,11 +2,11 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="mx-4 flex h-full items-center justify-center rounded-b-2xl border-b-2 bg-gradient-to-b from-white to-transparent">
+    <section className="mx-4 flex h-full items-center justify-center md:rounded-b-2xl md:border-b-2 bg-gradient-to-b from-white to-transparent">
       {/* h-screen  */}
-      <div className="text-center font-[Inter]">
-        <div className="text-3xl">
-          <h1 className="mb-4 mt-5 font-semibold text-[#060E23] md:text-5xl">
+      <div className=" font-[Inter]">
+        <div className="text-3xl text-left md:text-center">
+          <h1 className="mb-4 mt-5 font-semibold  text-[#060E23] md:text-5xl">
             Protecting Your <br />
             Financial Future, Today.
           </h1>
@@ -35,7 +35,7 @@ function Hero() {
         </div>
 
         <div>
-          <div className="flex items-end justify-center">
+          <div className="hidden md:flex items-end justify-center">
             <img src="/Chrome2.png" alt="Icon" className="" />
           </div>
         </div>
