@@ -2,14 +2,20 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="mx-4 flex h-full items-center justify-center bg-gradient-to-b from-white to-transparent p-3 md:p-0 md:rounded-b-2xl md:border-b-2">
+    <section className="mx-4 flex h-full items-center justify-center bg-gradient-to-b from-white to-transparent p-3 md:rounded-b-2xl md:border-b-2 md:p-0">
       {/* h-screen  */}
       <div className="font-[Inter]">
         <div className="text-left text-3xl md:text-center">
-          <h1 className="mb-4 mt-5 font-semibold text-[#060E23] md:text-5xl">
-            Protecting Your Financial <br />
-            Future, Today.
-          </h1>
+          <div className="mb-4 mt-5 font-semibold text-[#060E23] md:text-5xl">
+            <span class="block md:hidden">
+              Protecting Your Financial Future, Today.
+            </span>
+            <span class="hidden md:block">
+              Protecting Your Financial <br />
+              Future, Today.
+            </span>
+          </div>
+
           <div class="mb-4 text-sm text-[#72758A] md:text-lg">
             <span class="block md:hidden">
               Protecting Financial Institutions with Tailored, Cutting-Edge

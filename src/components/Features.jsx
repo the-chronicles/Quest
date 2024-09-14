@@ -6,7 +6,7 @@ function Features() {
       id="features"
       className="m-5 mx-4 flex h-full items-center justify-center p-5"
     >
-      <div className="flex flex-col items-center justify-center font-[Inter]">
+      <div className="flex flex-col items-center gap-6 justify-center font-[Inter]">
         <div className="w-fit items-center justify-center rounded-full border-2 border-[#CFD3EF] bg-[#FAFAFD] px-3 py-2 text-xs uppercase text-[#747999] md:px-4 md:text-sm">
           Quest's Features
         </div>
@@ -25,7 +25,10 @@ function Features() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-2 px-36 text-center font-[Inter] md:grid-cols-4">
+
+
+      {/* Grid section  */}
+        <div className="grid grid-cols-1 gap-5 p-5  text-center font-[Inter] md:grid-cols-4">
           <div className="rounded-md bg-[#f8f9fb] px-5 pt-5 md:col-span-2">
             <h1 className="text-xl font-semibold text-[#060E23]">
               Secure Data Management
@@ -46,8 +49,11 @@ function Features() {
             <img src="/Figure.png" alt="" className="flex items-baseline" />
           </div>
 
-          <div className="w-fit rounded-md bg-[#f8f9fb] px-5 md:col-span-1">
-            <img className="h-fit w-fit" src="/padlock.png" />
+          <div className="w-fit rounded-md bg-[#f8f9fb] px-5  md:col-span-1">
+           
+
+            <img className="h-fit w-fit " src="/padlock.png" />
+            
             <h1 className="text-xl font-semibold text-[#060E23]">
               Customized Security Strategies
             </h1>
@@ -57,7 +63,7 @@ function Features() {
             </p>
           </div>
 
-          <div className="flex justify-center rounded-md bg-[#f8f9fb] p-5 md:col-span-3 md:col-start-2">
+          <div className="flex justify-center rounded-md bg-[#f8f9fb] p-5  md:col-span-3 md:col-start-2">
             <div className="flex items-center">
               <div className="text-left">
                 <h1 className="text-xl font-semibold text-[#060E23]">
