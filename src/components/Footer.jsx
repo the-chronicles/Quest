@@ -49,7 +49,7 @@ function Footer() {
 
 
 <div className="mx-auto flex h-full w-11/12 md:w-11/12 flex-col items-center justify-center gap-11 rounded-3xl bg-[#07091c] py-16"> 
-  <div className="text-center font-[Inter] text-3xl   text-[#dadcea] md:text-6xl">
+  <div className="text-center font-[Inter] text-2xl   text-[#dadcea] md:text-6xl">
     <span className="block">Join Our Mission. Protect</span> 
     <span className="block">your Business</span>
   </div>
