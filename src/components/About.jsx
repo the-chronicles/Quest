@@ -25,30 +25,36 @@ function About() {
 
         {/* Grid Layout */}
         <div className="grid grid-cols-1 gap-4 p-5 text-center md:grid-cols-2">
-          <div class="flex h-[350px] flex-col items-center justify-start gap-[33px] rounded-lg border border-[#ebecf5] bg-[#f8f9fb] px-8 py-10">
+          <div class="flex h-fit flex-col items-center gap-8 rounded-lg border border-[#ebecf5] bg-[#f8f9fb] p-5">
             <div class="relative">
               <img src="/customer-service-2-fill.png" alt="" />
             </div>
-            <div class="flex h-[72px] flex-col items-center justify-start gap-3 self-stretch">
+            <div class="flex flex-col items-center self-stretch">
               <div class="self-stretch text-center text-xl font-bold leading-7 text-[#17171c]">
-                Email + Chat Support
+                Priority Support!
               </div>
-              <div class="self-stretch text-center font-['Inter'] text-xs font-normal leading-none text-[#828b9c]">
-                We’re here to address any requests you might have..
+              <div class="self-stretch text-center text-base text-[#828b9c] md:text-sm">
+                As a valued client, you receive priority access to our support
+                team. Whether it’s troubleshooting or expert advice, our
+                security specialists are available 24/7 to assist you with any
+                concerns or issues.
               </div>
             </div>
           </div>
 
-          <div class="flex h-[350px] flex-col items-center justify-start gap-[33px] rounded-lg border border-[#ebecf5] bg-[#f8f9fb] px-8 py-10">
+          <div class="flex h-fit flex-col items-center  gap-8 rounded-lg border border-[#ebecf5] bg-[#f8f9fb] p-5">
             <div class="relative">
               <img src="/database-fill.png" alt="" />
             </div>
-            <div class="flex h-[72px] flex-col items-center justify-start gap-3 self-stretch">
+            <div class="flex flex-col items-center self-stretch">
               <div class="self-stretch text-center text-xl font-bold leading-7 text-[#17171c]">
-                Over $500,000 in benefits.
+                Proactive Threat Intelligence Updates
               </div>
-              <div class="self-stretch text-center font-['Inter'] text-xs font-normal leading-none text-[#828b9c]">
-                Obtain discounts on top services to help expand your business.
+              <div class="self-stretch text-center text-base text-[#828b9c] md:text-sm">
+                As a valued client, you receive priority access to our support
+                team. Whether it’s troubleshooting or expert advice, our
+                security specialists are available 24/7 to assist you with any
+                concerns or issues.
               </div>
             </div>
           </div>

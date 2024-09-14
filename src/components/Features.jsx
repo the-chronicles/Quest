@@ -7,14 +7,20 @@ function Features() {
       className="m-5 mx-4 flex h-full items-center justify-center p-5"
     >
       <div className="flex flex-col items-center justify-center font-[Inter]">
-        <div className="w-fit items-center justify-center rounded-full border-2 border-[#CFD3EF] bg-[#FAFAFD] px-4 py-2 text-[#747999]">
+        <div className="w-fit items-center justify-center rounded-full border-2 border-[#CFD3EF] bg-[#FAFAFD] px-3 py-2 text-xs uppercase text-[#747999] md:px-4 md:text-sm">
           Quest's Features
         </div>
-        <div className="text-center">
-          <h1 className="mb-4 mt-5 font-semibold text-[#060E23] md:text-5xl">
-            Your Trusted Partner in <br /> Financial Security
-          </h1>
-          <p className="mb-4 text-xs text-[#72758A] md:text-lg">
+        <div className="gap-3 text-center">
+          <div class="mb-4 mt-5 text-center text-3xl font-bold text-[#06091c] md:text-5xl">
+            <span class="block md:hidden">
+              Your Trusted Partner In Financial Security
+            </span>
+            <span class="hidden md:block">
+              Your Trusted Partner In <br /> Financial Security
+            </span>
+          </div>
+
+          <p className="text-sm text-[#72758A] md:text-lg">
             Comprehensive Security Solutions for the Financial Industry.
           </p>
         </div>

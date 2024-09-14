@@ -4,7 +4,7 @@ function Industry() {
   return (
     <section
       id="industry"
-      className="m-5 mx-4 flex h-full items-center justify-center p-5"
+      className="m-5 mx-4 flex h-full items-center justify-center p-3"
     >
       <div className="flex flex-col items-center justify-center gap-6 font-[Inter]">
         <div className="w-fit items-center justify-center rounded-full border-2 border-[#CFD3EF] bg-[#FAFAFD] px-3 py-2 text-xs uppercase text-[#747999] md:px-4 md:text-sm">
